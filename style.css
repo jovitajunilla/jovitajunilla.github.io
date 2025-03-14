@@ -1,0 +1,195 @@
+@font-face {
+        font-family: 'wix-bold';
+        src: url('font/WixMadeforText-Bold.ttf');
+}
+
+@font-face {
+        font-family: 'wix-bolditalic';
+        src:url('font/WixMadeforText-BoldItalic.ttf')
+}
+
+@font-face {
+        font-family: 'wix-regular';
+        src:url('font/WixMadeforText-Regular.ttf')
+}
+
+@font-face {
+        font-family: 'wix-extrabold';
+        src:url('font/WixMadeforText-ExtraBold.ttf')
+}
+
+body,html{
+        padding: 0;
+        margin: 0;
+        font-family: 'wix-regular';
+        background-color: #1F1F1F;
+}
+
+header{
+        font-family: 'wix-bold';
+        position: sticky;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        
+        
+}
+
+.header-list{
+        background-color: #1F1F1F;
+        padding: 10px 0px 10px 0px;
+        color: white;
+        display: flex;
+        
+}
+
+#web-title{
+        margin-right: auto;
+        margin-left: 80px;
+        letter-spacing: 5px;
+}
+
+.header-list-right{
+        display: flex;
+        align-items: center;
+        margin-right: 80px;
+        gap: 80px;
+        font-size: 18px;
+}
+
+.list-content{
+        color: rgb(205, 205, 205);
+}
+
+.list-content:not(:first-child):hover{
+       color: gray;
+}
+
+
+.about-me-container{
+        display: flex;
+        background-color: white;
+        width: 100%;
+        /* justify-content: space-between; */
+       
+}
+
+.about-me{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        padding: 5%;
+}
+
+.bold-title{
+        font-family: 'wix-extrabold';
+        font-size: 50px;
+        color: #363636;
+}
+
+.jovita-pic{
+        max-width: 45%;
+}
+
+#linked-in{
+        background-color: #2F4C82;
+        width: 130px;
+        height: 30px;
+        color: white;
+        font-family: 'wix-extrabold';
+        border: none;
+}
+
+#linked-in:hover{
+       transform: scale(1.01);
+       border: rgb(2, 2, 66) solid;
+}
+
+.box-content{
+        display: flex;
+        gap: 10px;
+}
+
+.transform:hover{
+        transform: scale(1.1);
+}
+
+.software-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        
+}
+
+.img-software:hover{
+        transform: scale(1.1);
+}
+
+.my-skills{
+        align-content: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+}
+
+.title{
+        font-family: 'wix-extrabold';
+        font-size: 50px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+}
+
+.growth-experience{
+        margin-bottom: 10%;
+}
+
+.growth-container{
+        font-family: 'wix-extrabold';
+        color: white;
+        margin:0px 80px 20px 80px;
+        background-color: #303030;
+        padding: 30px 70px;
+}
+
+.growth-container:hover{
+        transform: scale(1.01);
+        box-shadow: 0 0 10px rgb(23, 23, 23);
+}
+
+
+p{
+        font-family: 'wix-regular';
+}
+
+footer{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        gap: 10%;
+        padding: 5%;
+        
+}
+
+
+
+.footer-box{
+        padding: 10px 20px 20px 30px;
+        border-radius: 10px;
+        border: 0.5px #c5c3c3 solid;
+        width: 50%;
+        
+       
+}
+
+.footer-container{
+        display: flex;
+        gap: 30px;
+        width: 50%;
+       
+}
+
