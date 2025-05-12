@@ -71,19 +71,20 @@
         color: white;
         display: flex;
         justify-content: center;
-        margin-bottom: 60px;
 }
 
 .growth-experience{
-        margin-bottom: 10%;
+        margin: 3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
 }
 
 .growth-container{
         font-family: 'wix-extrabold';
         color: white;
-        margin:0px 80px 20px 80px;
         background-color: #303030;
-        padding: 30px 70px;
+        padding: 1rem 3rem;
 }
 
 .growth-container:hover{
@@ -95,4 +96,31 @@
 
 p{
         font-family: 'wix-regular';
+}
+
+@media screen and (max-width:400px){
+        .software-logo{
+                flex-wrap: wrap;
+        }
+
+        .title{
+                font-size: 25px;
+        }
+
+        .growth-experience{
+                margin: 1.5rem;
+                gap: 1rem;
+        }
+
+        .growth-container{
+                padding: 1rem;
+        }
+
+        .growth-title{
+                font-size: 20px;
+        }
+
+        .growth-date{
+                font-size: 16px;
+        }
 }
