@@ -1,128 +1,155 @@
 @font-face {
-        font-family: 'wix-bold';
-        src: url('font/WixMadeforText-Bold.ttf');
+  font-family: "wix-bold";
+  src: url("font/WixMadeforText-Bold.ttf");
 }
 
 @font-face {
-        font-family: 'wix-bolditalic';
-        src:url('font/WixMadeforText-BoldItalic.ttf')
+  font-family: "wix-bolditalic";
+  src: url("font/WixMadeforText-BoldItalic.ttf");
 }
 
 @font-face {
-        font-family: 'wix-regular';
-        src:url('font/WixMadeforText-Regular.ttf')
+  font-family: "wix-regular";
+  src: url("font/WixMadeforText-Regular.ttf");
 }
 
 @font-face {
-        font-family: 'wix-extrabold';
-        src:url('font/WixMadeforText-ExtraBold.ttf')
+  font-family: "wix-extrabold";
+  src: url("font/WixMadeforText-ExtraBold.ttf");
 }
 
-body,html{
-        padding: 0;
-        margin: 0;
-        font-family: 'wix-regular';
-        background-color: #1F1F1F;
-        
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "wix-regular";
+  background-color: #1f1f1f;
 }
 
-header{
-        font-family: 'wix-bold';
-        position: sticky;
-        width: 100%;
-        top: 0;
-        z-index: 1000;
+header {
+  font-family: "wix-bold";
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
 
-.header-list{
-        background-color: #1F1F1F;
-        padding: 1rem 2rem;
-        color: white;
-        display: flex;
-        justify-content: space-between;
-        
+.header-list {
+  background-color: #1f1f1f;
+  padding: 1rem 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
-#web-title{
-        letter-spacing: 5px;
+#web-title {
+  letter-spacing: 5px;
 }
 
-.header-list-right{
-        display: flex;
-        align-items: center;
-        gap: 3rem;
-        font-size: 18px;
-        
-        a{
-                text-decoration: none;
-                color: inherit;
-        }
+.header-list-right {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  font-size: 18px;
 
-        a:hover{
-                color: gray;
-        }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 
-        div{
-            padding: 0rem 1rem;
-            display: flex;
-        }
+  a:hover {
+    color: gray;
+  }
+
+  div {
+    padding: 0rem 1rem;
+    display: flex;
+  }
 }
 
-footer{
-        background-color: white;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        gap: 10%;
-        padding: 5%;
-        
+footer {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
 }
 
-
-
-.footer-box{
-        padding: 10px 20px 20px 30px;
-        border-radius: 10px;
-        border: 0.5px #c5c3c3 solid;
-        width: 50%;
-        
-       
+.footer-box {
+  width: fit-content;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: 0.5px #c5c3c3 solid;
 }
 
-.footer-container{
-        display: flex;
-        gap: 30px;
-        width: 50%;
-       
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
-.list-content{
-        color: rgb(205, 205, 205);
-        font-family: 'wix-regular';
+.list-content {
+  color: rgb(205, 205, 205);
+  font-family: "wix-regular";
 }
 
-#bold-menu{
-    font-family: 'wix-bold';
-    font-weight: bold;
+#bold-menu {
+  font-family: "wix-bold";
+  font-weight: bold;
 }
 
-@media screen and (max-width:400px) {
-    .header-list-right{
-        gap: 0.5rem;
-        justify-content: center;
-    }
+.bold-title {
+  font-family: "wix-extrabold";
+  font-size: 50px;
+  color: #363636;
+}
 
-    .header-list{
-        flex-direction: column;
-        text-align: center;
-    }
+.image-footer{
+        width: 60px;
+        height: auto;
+}
 
-    header{
-        position: relative;
-    }
+@media screen and (max-width: 500px) {
+  .header-list-right {
+    gap: 0.5rem;
+    justify-content: center;
+  }
 
-    .title{
-        font-size: medium;
-    }
+  .header-list {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .title {
+    font-size: medium;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    padding: 1rem;
+  }
+
+  .bold-title {
+    font-size: 30px;
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .image-footer{
+    width: 40px;
+  }
 }
