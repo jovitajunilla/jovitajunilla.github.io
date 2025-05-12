@@ -23,6 +23,7 @@ body,html{
         margin: 0;
         font-family: 'wix-regular';
         background-color: #1F1F1F;
+        
 }
 
 header{
@@ -55,14 +56,19 @@ header{
         margin-right: 80px;
         gap: 80px;
         font-size: 18px;
+        
+        a{
+                text-decoration: none;
+                color: inherit;
+        }
+
+        a:hover{
+                color: gray;
+        }
 }
 
 .list-content{
         color: rgb(205, 205, 205);
-}
-
-.list-content:not(:first-child):hover{
-       color: gray;
 }
 
 
@@ -103,6 +109,7 @@ header{
 #linked-in:hover{
        transform: scale(1.01);
        border: rgb(2, 2, 66) solid;
+       background-color: #456195;
 }
 
 .box-content{
@@ -157,6 +164,7 @@ header{
 .growth-container:hover{
         transform: scale(1.01);
         box-shadow: 0 0 10px rgb(23, 23, 23);
+        background-color: #3f3f3f;
 }
 
 
